@@ -200,9 +200,6 @@ def load_transactions(filename, error_log="errors.txt"):
     return transactions
 
 transactions = load_transactions("financial_transactions.csv")
-# Removed invalid line
 
-# Ensure this CSV content is saved in a separate file, e.g., "financial_transactions.csv".
-# Remove it from the Python script to avoid syntax errors.
 
 
